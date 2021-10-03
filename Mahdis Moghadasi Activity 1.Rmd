@@ -1,0 +1,68 @@
+--- 
+title: "Activity 1"
+author: "Mahdis Moghadasi"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+# Main Research Interest
+
+  My main research interests are landuse changes and environmental planning, accessibility, Transportation planning and Machine Learning.
+  
+  During my Master education, my supervisor and I have published two articles on how land use changes during 1996-2016 in one of Iran's metropolitan areas and I also researched about the potential accessibility of the transportation network in Iran in my master's thesis. Since I was faced with a large amount of data so I decided to learn machine learning and data analysis.
+ 
+  In addition, I will also be researching mobility justice in my PhD, which is of great interest to me both in terms of data analysis and in terms of subject matter. Because I think the achievements of this study will have a tremendous impact on the lives of citizens and It will also have great scientific achievements for me as a PhD student.
+
+# Favorites
+## *Favorite Music*
+1. [The Last Time](https://music.apple.com/us/album/the-last-time-feat-gary-lightbody/1440935340?i=1440935568)
+   + Taylor Swift
+   
+2. [Million Reasons](https://music.apple.com/us/album/million-reasons/1440893782?i=1440893897)
+   + Lady Gaga
+   
+3. [Bored](https://music.apple.com/us/album/bored/1440880821?i=1440881181)
+   + Billie Eilish
+   
+4. [Memories](https://music.apple.com/us/album/memories/1479600900?i=1479600902)
+   + Maroon 5
+   
+5. [Little do you know](https://music.apple.com/us/album/little-do-you-know/895611637?i=895611647)
+   + Alex & Sierra
+   
+## *Favorite Equation*
+$(x^3+4*x^2)/sqrt(x+3)$
+
+## *Favorite Artists*
+Name  | Achievement
+------------- | -------------
+Taylor Swift  | Taylor is the first female solo act to win the Grammy for “Album of the Year” twice
+Lady Gaga  | In 2020, Lady Gaga became the first person to be honored with the MTV Tricon award. This award was created to celebrate "highly accomplished artists across three disciplines."
+shakira  | Rock singer Shakira is ten-time Grammy Award winner.
+Adele  | English singer-songwriter Adele has received various awards and nominations. She is the recipient of nine Brit Awards, an Academy Award, a Golden Globe Award, fifteen Grammy Awards, eighteen Billboard Music Awards, five American Music Awards, and two Ivor Novello Awards for Songwriter of the Year.
+Celine Dion  | Dion has won over 100 awards, including the Lifetime Achievement Icon Award, The Canadian Arts & Fashion International Style Icon Award, 5 Grammys and was appointed one of France’s “Chevalier de la Légion d’Honneur” for her merits and contributions to France.
+
+# A chunk of code
+**Part 1**
+```{r, echo=TRUE}
+data(cars)
+str(cars)
+summary(cars)
+plot(cars)
+```
+
+**Part2**
+
+```{r, echo=FALSE}
+hist(cars$speed)
+boxplot(cars$dist)
+```
+
+**Part3**
+
+The mean speed of cars was `r mean(cars$speed)` .
+
+
+
