@@ -2,15 +2,7 @@
 
  I am Mahdis Moghadasi and New PhD student at McMaster University. This is my first repository I have built for Activity 2.
  
---- 
-title: "Activity 1"
-author: "Mahdis Moghadasi"
-output:
-  word_document: default
-  html_document:
-    df_print: paged
-  pdf_document: default
----
+
 # Main Research Interest
 
   My main research interests are landuse changes and environmental planning, accessibility, Transportation planning and Machine Learning.
