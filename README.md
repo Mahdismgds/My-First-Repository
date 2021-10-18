@@ -11,33 +11,3 @@
  
   In addition, I will also be researching mobility justice in my PhD, which is of great interest to me both in terms of data analysis and in terms of subject matter. Because I think the achievements of this study will have a tremendous impact on the lives of citizens and It will also have great scientific achievements for me as a PhD student.
 
-# Favorites
-## *Favorite Music*
-1. [The Last Time](https://music.apple.com/us/album/the-last-time-feat-gary-lightbody/1440935340?i=1440935568)
-   + Taylor Swift
-   
-2. [Million Reasons](https://music.apple.com/us/album/million-reasons/1440893782?i=1440893897)
-   + Lady Gaga
-   
-3. [Bored](https://music.apple.com/us/album/bored/1440880821?i=1440881181)
-   + Billie Eilish
-   
-4. [Memories](https://music.apple.com/us/album/memories/1479600900?i=1479600902)
-   + Maroon 5
-   
-5. [Little do you know](https://music.apple.com/us/album/little-do-you-know/895611637?i=895611647)
-   + Alex & Sierra
-   
-## *Favorite Equation*
-$(x^3+4*x^2)/sqrt(x+3)$
-
-## *Favorite Artists*
-Name  | Achievement
-------------- | -------------
-Taylor Swift  | Taylor is the first female solo act to win the Grammy for "Album of the Year" twice
-Lady Gaga  | In 2020, Lady Gaga became the first person to be honored with the MTV Tricon award. This award was created to celebrate "highly accomplished artists across three disciplines."
-shakira  | Rock singer Shakira is ten-time Grammy Award winner.
-Adele  | English singer-songwriter Adele has received various awards and nominations. She is the recipient of nine Brit Awards, an Academy Award, a Golden Globe Award, fifteen Grammy Awards, eighteen Billboard Music Awards, five American Music Awards, and two Ivor Novello Awards for Songwriter of the Year.
-Celine Dion  | Dion has won over 100 awards, including the Lifetime Achievement Icon Award, The Canadian Arts & Fashion International Style Icon Award, 5 Grammys and was appointed one of France's la Honneur" for her merits and contributions to France.
-
-
