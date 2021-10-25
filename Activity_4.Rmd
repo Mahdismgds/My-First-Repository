@@ -1,0 +1,58 @@
+--- 
+title: "**Activity_4_Mahdis_Moghadasi**"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+---
+# Article information
+
+## *Article title*
+
+Dataset on the transport network accessibility and spatial structure of population and activity in Iran 
+
+## *Authors*
+
+Mahdis Moghadasi*
+
+Hashem Dadashpoor
+
+## *Affiliations*
+
+McMaster university, Hamilton, Canada.
+
+Tarbiat Modares University, Tehran, Iran.
+
+## *Corresponding author’s email address* 
+
+Mogham3@Mcmaster.ca
+
+h-dadashpoor@modares.ac.ir
+
+## *Keywords*
+Potential Accessibility- Transportation networks -Population and activity changes
+
+## Abstract
+
+This article aims to explore the relationship between accessibility through the transport networks and the spatial structure of population and activity in Iran. To this end, the potential accessibility through the intermodal transport network (road and railway) was measured based on the population and activity at the county scale. Then, using the multivariable linear regression (MLR) and geographically weighted regression (GWR), the relationship between accessibility changes and population/ activity changes from 1996 to 2016 was explained using ArcGIS10.4.2 software.
+The data used in this study include population, activity, employment rate, road network, railway lines, and railway stations. To calculate potential accessibility through transport network (road and railway), the population, activity data (including employment and population) of each county as the spatial unit of analysis for the years 1996, 2006, and 2016, respectively were used. Besides, the data on the employment rate for 2006 and 2016 were obtained from the Statistical Center of Iran to explore the relationship between potential accessibility and population/activity changes. The road network of Iran was obtained from Iran Road Maintenance & Transportation Organization (RMTO) and finally, the railway lines and station shapefiles were obtained from Iran's Railway Company (IRC) over the three periods of 1996, 2006, and 2016.
+
+For the sake of comparability as well as time calculations, the main roads including freeways, highways, and the main roads (primary and secondary roads) were considered, and only less important roads (such as dirt, forests, and other side roads) were excluded from the analyses. The average speed range data for the railway and road networks were obtained from the RMTO and the IRC, which were 100 km/h for freeways, 90 km/h for highways, 80km/h for the main roads, and 70 km/h for railways. 
+
+In the following, an attempt has been made to create an integrated intermodal transport network in ArcGIS, in which the centers of counties and railway stations form nodes, and road and railways create links. In areas where there were two-way rail lines, only one of those similar railway stations located next to each other was considered. Therefore, first, two independent networks of railways and road networks were created. Then, to establish an intermodal network, the third set of links was created, which made the relationship between nodes in different modes of transportation (connecting some railway stations to the road network). This link is made directly from the nodes (railway station) to the road network, which was usually considered to be in the category of secondary roads. These links were re-drawn with the help of Google Earth maps. After the completion of the intermodal network, a topology of the network was created in ArcGIS to detect and correct errors in the network because that is necessary to get more accurate and better results. This process was conducted separately for all three years of 1996, 2006, and 2016. Since the data of roads and railways of the whole country are not available and up to date, so the data used in this article can be used in other ones.
+
+## Specifications table 
+
+**Subject**  | Municipal Engineering; Geography
+------------- | -------------
+**Specific subject area** | Transportation planning and Accessibility to transportation network
+**Type of data** | Tables, Charts, Graphs, Figures, and maps
+**How the data were acquired** | The data on the population, employment and employment rate for 1996, 2006, and 2016 were obtained from the Statistical Center of Iran. The basic shapefiles of the road network, railway lines and station of Iran were obtained from Iran Road Maintenance & Transportation Organization (RMTO) and Iran's Railway Company (IRC) respectively.
+**Data format** | Raw, Analysed, and Statistical Data 
+**Data source location** | The population and activity data were collected on the county scale in Iran. is addition, the transportation networks (includes both roads and railways) data are on a national scale (Iran).
+**Data accessibility** | The data is available within this article 
+**Related research article** | Moghadasi, Mahdis; Dadashpoor, Hashem, The relationship between transport network accessibility and spatial structure of population and activity in Iran, Transport Geography. In Press.
+
+## Value of the data
+
