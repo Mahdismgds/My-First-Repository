@@ -1,0 +1,133 @@
+--- 
+title: "*Activity_4*"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  word_document: default
+---
+## Article information
+
+### *Article title*
+
+Dataset on the transport network accessibility and spatial structure of population and activity in Iran 
+
+### *Authors*
+
+Mahdis Moghadasi*
+
+Hashem Dadashpoor
+
+### *Affiliations*
+
+McMaster university, Hamilton, Canada.
+
+Tarbiat Modares University, Tehran, Iran.
+
+### *Corresponding author’s email address* 
+
+Mogham3@Mcmaster.ca
+
+h-dadashpoor@modares.ac.ir
+
+### *Keywords*
+Potential Accessibility- Transportation networks -Population and activity changes
+
+### Abstract
+
+This article aims to explore the relationship between accessibility through the transport networks and the spatial structure of population and activity in Iran. To this end, the potential accessibility through the intermodal transport network (road and railway) was measured based on the population and activity at the county scale. Then, using the multivariable linear regression (MLR) and geographically weighted regression (GWR), the relationship between accessibility changes and population/ activity changes from 1996 to 2016 was explained using ArcGIS10.4.2 software.
+The data used in this study include population, activity, employment rate, road network, railway lines, and railway stations. To calculate potential accessibility through transport network (road and railway), the population, activity data (including employment and population) of each county as the spatial unit of analysis for the years 1996, 2006, and 2016, respectively were used. Besides, the data on the employment rate for 2006 and 2016 were obtained from the Statistical Center of Iran to explore the relationship between potential accessibility and population/activity changes. The road network of Iran was obtained from Iran Road Maintenance & Transportation Organization (RMTO) and finally, the railway lines and station shapefiles were obtained from Iran's Railway Company (IRC) over the three periods of 1996, 2006, and 2016.
+
+For the sake of comparability as well as time calculations, the main roads including freeways, highways, and the main roads (primary and secondary roads) were considered, and only less important roads (such as dirt, forests, and other side roads) were excluded from the analyses. The average speed range data for the railway and road networks were obtained from the RMTO and the IRC, which were 100 km/h for freeways, 90 km/h for highways, 80km/h for the main roads, and 70 km/h for railways. 
+
+In the following, an attempt has been made to create an integrated intermodal transport network in ArcGIS, in which the centers of counties and railway stations form nodes, and road and railways create links. In areas where there were two-way rail lines, only one of those similar railway stations located next to each other was considered. Therefore, first, two independent networks of railways and road networks were created. Then, to establish an intermodal network, the third set of links was created, which made the relationship between nodes in different modes of transportation (connecting some railway stations to the road network). This link is made directly from the nodes (railway station) to the road network, which was usually considered to be in the category of secondary roads. These links were re-drawn with the help of Google Earth maps. After the completion of the intermodal network, a topology of the network was created in ArcGIS to detect and correct errors in the network because that is necessary to get more accurate and better results. This process was conducted separately for all three years of 1996, 2006, and 2016. Since the data of roads and railways of the whole country are not available and up to date, so the data used in this article can be used in other ones.
+
+### Specifications table 
+
+**Subject**  | Municipal Engineering; Geography
+------------- | -------------
+**Specific subject area** | Transportation planning and Accessibility to transportation network
+**Type of data** | Tables, Charts, Graphs, Figures, and maps
+**How the data were acquired** | The data on the population, employment and employment rate for 1996, 2006, and 2016 were obtained from the Statistical Center of Iran. The basic shapefiles of the road network, railway lines and station of Iran were obtained from Iran Road Maintenance & Transportation Organization (RMTO) and Iran's Railway Company (IRC) respectively.
+**Data format** | Raw, Analysed, and Statistical Data 
+**Data source location** | The population and activity data were collected on the county scale in Iran. is addition, the transportation networks (includes both roads and railways) data are on a national scale (Iran).
+**Data accessibility** | The data is available within this article 
+**Related research article** | Moghadasi, Mahdis; Dadashpoor, Hashem, The relationship between transport network accessibility and spatial structure of population and activity in Iran, Transport Geography. In Press.
+
+### Value of the data
+
+   * The data evaluation the relationship between accessibility through the transport networks and the spatial structure of population and activity in Iran which can be used by transportation planners,policy makers and other researchers.
+  
+   * The data revealed the relationship between socio-economic parameters and potential accessibility for transportation planners and policymakers. 
+   
+   * The dataset showed improved accessibility has mainly been concentrated in the Tehran metropolitan region and the central, northwestern, and northern coastal regions of Iran while some remote and peripheral regions had low accessibility, leading to the emergence of the center-periphery relationships at the national scale which will able to guide researchers.
+   
+   
+####   1. **Data**
+
+ **1.1.Potential accessibility**
+      
+Fig.1 reveals that the value of the two indices (potential accessibility based on population and employment) has generally increased. Also, with the growth of population/employment and development of road and railway networks in each county and consequently the reduction of the shortest time distance, the potential accessibility in most counties has increased.
+
+![figure 1.Potential accessibility based on population and employment on the scale of counties(1996-2016)](\Users\MAHAN\Pictures\New folder\1.jpg)
+
+In addition, The results show that the highest average values of potential accessibility based on the population and the employment from 1996 to 2016 belonged respectively to Tehran metropolitan region, North-costal regions, North-west regions and Central regions. Regions far from the center (such as the Eastern, Western, and Southern coastal regions) had the lowest values(Fig.2).
+
+![figure 2.Average potential accessibility based on population and employment in various regions of Iran (1996-2016)](\Users\MAHAN\Pictures\New folder\2.jpg)
+
+ **1.2. The relationship between the potential accessibility and population/employment changes during 1996-2016**
+ 
+ The study of the relationship between accessibility changes through the transport network and the population/ employment changes over the period 1996-2016 revealed that the benefits of the improved accessibility have spread to neighboring regions due to the road and railway network development in the Tehran metropolitan region, central, northern coastal, northwestern regions, and parts of the eastern region's neighboring regions. Thus, there is a significant relationship between the population/employment changes and potential accessibility changes in these regions. However, the relationship between population/employment changes and accessibility development depends on many variables that affect the extent and nature of this relationship. Consequently, it is difficult to determine the exact extent and direction of this relationship (Table.1).
+ 
+ ![Table 1.Potential accessibility changes and population/employment changes](\Users\MAHAN\Pictures\New folder\4.jpg)
+ 
+ The GWR method has been used to spatially analyze the relationship between accessibility changes and population or activity changes. Findings show that accessibility changes have a different relationship with population changes and activities in the different regions of the Iran. These relationships show that Iran has become two major zones in which the spatial gap between these two zones is quite evident.
+ 
+ ![Figure 3.The spatial relationship between the potential accessibility and population/employment changes in the period of 1996-2016](\Users\MAHAN\Pictures\New folder\5.jpg)
+ 
+### Acknowledgement
+The authors are grateful to Tarbiat Modares  University for the enabling environment to carry out the research.
+
+### References
+
+Alam, B. M., Thompson, G. L., & Brown, J. R. (2010). Estimating transit accessibility with an alternative method: evidence from Broward County, Florida. Transportation Research Record, 2144(1), 62-71.
+
+Gutiérrez, J., Condeço-Melhorado, A., & Martín, J. C. (2010). Using accessibility indicators and GIS to assess spatial spillovers of transport infrastructure investment. Journal of transport geography, 18(1), 141-152. 
+
+Gutiérrez, J., Condeço-Melhorado, A., López, E., & Monzón, A. (2011). Evaluating the European added value of TEN-T projects: a methodological proposal based on spatial spillovers, accessibility, and GIS. Journal of Transport Geography, 19(4), 840-850.
+
+Hansen, W. G. (1959). Accessibility and residential growth (Doctoral dissertation, Massachusetts Institute of Technology).
+
+Higgins, C. D., Adams, M. D., Réquia, W. J., & Mohamed, M. (2019). Accessibility, air pollution, and congestion: Capturing spatial trade-offs from agglomeration in the property market. Land Use Policy, 84, 177-191. 
+
+Jacobs-Crisioni, C., & Koomen, E. (2017). Population growth, accessibility spillovers, and persistent borders: Historical growth in West-European municipalities. Journal of Transport Geography, 62, 80-91.
+
+Koopmans, C., Rietveld, P., & Huijg, A. (2012). An accessibility approach to railways and municipal population growth, 1840–1930. Journal of Transport Geography, 25, 98-104.
+
+Kotavaara, O., Antikainen, H., & Rusanen, J. (2011). Population change and accessibility by road and rail networks: GIS and statistical approach to Finland 1970–2007. Journal of Transport Geography, 19(4), 926-935. 
+
+Kotavaara, O., Antikainen, H., Marmion, M., & Rusanen, J. (2012). Scale in the effect of accessibility on population change: GIS and a statistical approach to the road, air, and rail accessibility in Finland, 1990–2008. The Geographical Journal, 178(4), 366-382. 
+
+Krugman, P. (1991). Increasing returns and economic geography. Journal of political economy, 99(3), 483-499.
+
+Páez, A., Scott, D. M., & Morency, C. (2012). Measuring accessibility: positive and normative implementations of various accessibility indicators. Journal of Transport Geography, 25, 141-153. 
+
+Páez, A., Farber, S., & Wheeler, D. (2011). A simulation-based study of geographically weighted regression as a method for investigating spatially varying relationships. Environment and Planning A, 43(12), 2992-3010.
+
+Pérez, E. O., Quintana, S. M., & Pastor, I. O. (2011). Road and railway accessibility atlas of Spain. Journal of Maps, 7(1), 31-41. 
+
+Proffitt, D. G., Bartholomew, K., Ewing, R., & Miller, H. J. (2019). Accessibility planning in American metropolitan areas: Are we there yet?. Urban Studies, 56(1), 167-192. 
+
+Road Maintenance and Transportation Organazation(2016). Road network of Iran.
+
+Rosik, P., & Stępniak, M. (2015). Monitoring of changes in road potential accessibility at the municipality level in Poland, 1995-2015. Geographia Polonica, 88(4), 607-620.
+
+Rosik, P., Pomianowski, W., Komornicki, T., Goliszek, S., Szejgiec-Kolenda, B., & Duma, P. (2020). Regional dispersion of potential accessibility quotient at the intra-European and intranational level. Core-periphery pattern, discontinuity belts, and distance decay tornado effect. Journal of Transport Geography, 82, 102554.
+
+tatistical Center of Iran (2016). General census of population and housing of Iran.
+
+The Railway Organization of Iran (2016). The railway network of Iran.
+
+
+
+
